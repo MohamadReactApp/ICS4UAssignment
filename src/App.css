@@ -1,0 +1,1041 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body { 
+  background: rgb(233,233,233);
+  margin: 0;
+}
+
+.no-select {
+  user-select: none;
+}
+.header__menu{
+  margin:0px;
+  background: rgb(10,19,30);
+  color: white;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(0,0,0, 0.2) 0px 1px 56px; 
+  height: 70px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.menu a{
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.hero-container{
+  display: flex;
+  width: 90%;
+  height:500px;
+  /* border-style: solid;
+  border-width : 3px;
+  border-color: black; */
+  margin-left: 8%;
+  margin-top: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.hero-company-text{
+  font-size: 15px;
+  color: rgb(174, 174, 174);
+}
+.hero-1-text{
+  font-size: 30px;
+  margin-bottom: 5%;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  gap:5% ;
+  
+}
+.hero-car{
+  margin-top:5%;
+  width: 50%;
+  min-width: 20%;
+  border-radius:25% ;
+  transition: all ease-in-out 200ms;
+  
+ 
+}
+
+.hero-main-text{
+  background-color:transparent;
+  color: rgb(10,19,30);
+  
+  font-size: 25px;
+  
+ 
+  
+  margin-bottom: 50px;
+}
+.hero-trending{
+    font-size: 12px;
+    background-color: rgb(10,19,30);
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    min-width: 50px;
+}
+
+
+
+.hero-text{
+  margin-left:10px
+}
+.hero-buttons,.hero-buttons-mobile{
+  margin-top: 10%;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-title-container{
+  display: flex;
+  gap:5%;
+  align-items: baseline;
+
+}
+.hero-buttons-mobile{
+  display: none;
+}
+
+.shopButton , .shopButtonDark, .shopButtonDarkFinancing, .shopButtonSolid, .card-shopButton, .About-shopButton{
+  background: transparent;
+  
+  border-style: solid;
+  border-width: 1px;
+  height:50px;
+  border-radius: 15px;
+  margin-right: 20px;
+  padding: 0px 30px;
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
+}
+.shopButton, .card-shopButton,.About-shopButton{
+    color: white; 
+   border-color: white;
+}
+.shopButtonDark, .shopButtonDarkFinancing{
+  color: rgb(10,19,30); 
+   border-color: rgb(10,19,30);
+}
+
+.shopButtonSolid,.carCardButton{
+  color: white; 
+   background-color: rgb(10,19,30);
+   /* border-radius: 20px; */
+   border-style: none;
+   cursor: pointer;
+}
+.shopButton:hover{
+  background: white;
+  color: rgb(10,19,30);
+}
+
+.shopButtonDarkFinancing:hover{
+  background: rgb(10,19,30);
+  color: white;
+}
+.card-shopButton{
+  position: absolute;
+  margin-top: 550px;
+}
+.card-shopButton:hover{
+  background: white;
+  color: rgb(10,19,30);
+}
+.About-shopButton:hover{
+  background: white;
+  color: rgb(10,19,30);
+}
+.card-container,.steps-container,.contact-container{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+  color: rgb(10,19,30);
+  height: 800px;
+  overflow-y: hidden;
+}
+.card-title{
+  margin-top: 40px;
+  font-size: 40px;
+  overflow-y: hidden;
+}
+.card-space{
+  width: 90%;
+  height:80%;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.card-1{
+  
+  height: 100%;
+  width:30%;
+  background-color: rgb(10,19,30);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transition: all ease-in-out 200ms;
+}
+
+.card-image{
+  width:100%;
+  height: 35%;
+}
+.card-main-text{
+  font-size: 25px;
+  color: white;
+}
+.card-body-text{
+  align-self: center;
+  color:white;
+  margin-left: 1%;
+  font-size: 13px;
+  line-height: 25px;
+}
+.About-container{
+  overflow: hidden;
+  width: 90%;
+  height: 500px;
+  background: rgb(10,19,30);
+  margin-left: 5.5%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin-bottom: 5%;
+}
+.About-shopButton, .shopButtonDarkFinancing{
+  margin-top: 3%; 
+  margin-left: 30%;
+}
+
+.About-text-container{
+  color: rgb(255, 255, 255);
+  max-width: 40%;
+  margin-right: 3%;
+  margin-bottom: 0%;
+}
+.About-img{
+  width: 55%;
+  height: 500px;
+}
+.About-body-text{
+  line-height: 150%;
+  color: rgb(177, 177, 177);
+}
+.steps-container,.contact-container{
+  background-color: rgb(10,19,30);
+  height:620px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.steps-container{
+  height: 900px;
+}
+
+.steps-title{
+  color: white;
+  margin-bottom: 2%;
+  overflow: hidden;
+
+}
+.steps-subtitle{
+  color: rgb(225, 225, 225);
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+.steps-space{
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(10,19,30);
+  display: flex;
+  justify-content: space-evenly;
+}
+.step{
+  height: 100%; 
+  width: 33.3%;
+  background-color: transparent;
+  color: rgb(10,19,30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.step-num-bg{
+  margin-top: 14%;
+  background-color: white;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50%;
+  font-weight: lighter;
+  background-color: white;
+  box-shadow:
+    0 0 30px 10px rgba(255, 255, 255,0.4),
+    0 0 30px 20px rgba(255,255,255,0.3),
+    0 0 30px 30px rgba(255,255,255,0.15);
+    margin-bottom: 15%;
+}
+  
+
+.step-title{
+  color: white;
+  font-size: 20px;
+}
+.step-des{
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  width: 75%;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.light{
+  background-color: transparent;
+}
+.light-text{
+  color: rgb(10,19,30);
+}
+.light-circle{
+  background-color: rgb(10,19,30);
+  color: white;
+}
+.featuredCars-container, .featuredCars-containerAll{
+  height:500px;
+  width: 100%;
+  background-color: transparent;
+  color:rgb(10,19,30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.featuredCars-containerAll{
+  height: 2500px;
+}
+.featuredCars-Cards-container,.featuredCars-Cards-containerAll{
+  width: 100%;
+  height:100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.featuredCars-Cards-containerAll .carCard{
+  width: 17%;
+}
+.featuredCars-Cards-containerAll{
+  gap: 3%;
+}
+.carCard{
+  overflow: hidden;
+  width: 15%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  transition: all ease-in-out 200ms;
+}
+.carCard-img{
+  margin-right: 100px;
+ height: 30%;
+ width: 107%;
+  overflow: hidden;
+}
+.carCardButton{
+  width: 150%;
+  height: 15%;
+  overflow: hidden;
+ border-style: none;
+}
+.carCard-title{
+  align-self: center;
+  text-align: center;
+  font-size: 16px;
+  overflow: hidden;
+}
+.carCard-price{
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(65, 71, 79);
+  transition: all ease-in-out 200ms;
+}
+.carCardInfo{
+  margin-bottom: -50%;
+  height:100%;
+}
+.carCardTrendingTag{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: rgb(10,19,30);
+  color: white;
+  text-align: center;
+  width: 70%;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 1%;
+}
+.carCard:hover{
+    scale: 1.05;
+}
+.carCard-price:hover{
+ background-color: rgb(10,19,30);
+ color: aliceblue;
+}
+.contact-container{
+  height: 550px;
+  align-items: center;
+  margin-top: 7%;
+}
+.contactUs{
+  color:white;
+  font-size: 40px;
+}
+.contact-container{
+  color: white;
+}
+.emailForm{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.input-container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.text-input-area{
+  border-radius: 20px;
+  height: 60%;
+  width: 70%;
+  border-style:none ;
+  outline: none;
+  box-shadow: 0 0 5px rgba(32, 31, 31, 0.3);
+  margin: 10px;
+  overflow: hidden;
+  padding: 5px;
+}
+.message-area{
+  width: 70%;
+  margin: 0;
+  height: 60%;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 10px;
+}
+.footer-container{
+  background-color:rgb(242,242,242);
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  
+  width: 100%;
+}
+.copyright-text{
+  font-weight: lighter;
+  color: rgb(4, 56, 109);
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.FinancingImg{
+  width: 55%;
+ }
+
+ .Financing-container{
+    margin-top: 5%;
+    height: 550px;
+    background-color: white;
+ }
+ 
+ .Financing-text-container{
+  color: rgb(10,19,30);
+ }
+
+ 
+
+ .Financing-body-text{
+  color: rgb(8, 45, 89);
+ }
+ 
+
+
+
+
+
+/* media queries*/
+
+
+@media (max-width: 596px){
+  .header__menu{
+    font-size: 11px;
+  }
+  .menu a{
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .header__menu .shopButton{
+    font-size:11px;
+  }
+}
+@media(max-width: 457px){
+  .header__menu{
+    font-size: 9px;
+  }
+  .menu a{
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .header__menu .shopButton{
+    font-size:9px;
+    height: 40px;
+  }
+}
+@media(max-width: 390px){
+  .header__menu{
+    font-size: 9px;
+  }
+  .menu a{
+    display: none;
+  }
+  .header__menu .shopButton{
+    font-size:9px;
+    height: 40px;
+  }
+}
+
+
+/*media query for hero*/
+@media(min-width: 1354px){
+  .hero-container{
+    overflow-y: hidden;
+  }
+   
+}
+@media(max-width: 780px){
+  .hero-buttons, .hero-buttons-mobile{
+    width: 100%;
+  }
+  .hero-buttons, .hero-buttons button{
+    font-size: 10px;
+    }
+    /* .hero-trending{
+      position: absolute;
+      left: 45%;
+    } */
+    .hero-title-container{
+      align-items: last baseline;
+    }
+   
+}
+.carBuyImage{
+  width: 400px;
+}
+
+@media(max-width: 695px){
+  .hero-title-container{
+    flex-direction: column;
+    gap: 0%;
+  }
+ 
+}
+@media(max-width: 686px){
+  .hero-title-container{
+    flex-direction: column;
+    justify-content: none;
+    align-items: start;
+  }
+  .hero-buttons,.hero-buttons-mobile{
+    width: 130%;
+  }
+  .hero-1-text{
+    font-size: 25px;
+  }
+  .hero-main-text{
+    font-size: 20px;
+  }
+  .hero-price{
+    font-size: 28px;
+  }
+ 
+}
+@media(max-width: 502px){
+  .hero-container{
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 10%;
+  }
+  .hero-car {
+    margin-top: 10%;
+    min-width: 60%;
+    width: 100%;
+    
+}
+.hero-buttons{
+  display: none;
+}
+  .hero-buttons-mobile{
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+  }
+  .hero-buttons-mobile button{
+    font-size: 10px;
+  }
+ 
+}
+/*Media query for about us & financing */
+
+@media (max-width: 923px){
+      .About-body-text{
+        font-size: 14px;
+      }
+      .About-shopButton{
+        margin-left: 30%;
+      }
+      .shopButtonDarkFinancing{
+        margin-left: 25%;
+      }
+      .About-text-container h1{
+              font-size: 24px;
+      }
+      .About-text-container h2{
+        font-size: 20px;
+}
+}
+@media (max-width: 1036px){
+  .Financing-body-text{
+    font-size: 15px;
+  }
+  .Financing-text-container h2{
+    font-size: 20px;
+}
+}
+
+@media (max-width: 841px){
+  .Financing-body-text{
+    font-size: 13px;
+  }
+  .Financing-text-container h2{
+    font-size: 17px;
+}
+.shopButtonDarkFinancing{
+  font-size: 12px;
+  margin-left: 20%;
+}
+
+}
+@media (max-width: 636px){
+  .About-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 13%;
+  }
+  .About-shopButton, .shopButtonDarkFinancing{
+    margin-left: 0%;
+    margin-bottom: 2%;
+  }
+  .About-text-container{
+    margin-left: 2%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .About-img, .FinancingImg {
+    width: 100%;
+    height: 400px;
+
+}
+}
+@media (max-width: 376px){
+  .About-body-text{
+    font-size: 9px;
+  }
+  .About-img, .FinancingImgs{
+    height: 300px;
+  }
+  .About-shopButton, .shopButtonDarkFinancing{
+    margin-left: 30%;
+  }
+  .About-text-container h1{
+          font-size: 19px;
+  }
+  .About-text-container h2{
+    font-size: 15px;
+}
+.About-shopButton, .shopButtonDarkFinancing{
+  font-size: 10px;
+  margin-left: 5%;
+}
+
+  
+}
+
+
+/* media queries for cards*/
+
+@media(max-width: 967px){
+  .card-main-text{
+    font-size: 17px;
+  }
+  .card-body-text{
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media(max-width: 647px){
+  .card-main-text{
+    font-size: 15px;
+  }
+  .card-body-text{
+    font-size: 10px;
+    line-height: 17px;
+  }
+  .card-shopButton{
+    font-size: 10px;
+    width: 70%;
+  }
+}
+@media(max-width: 547px){
+ .card-container{
+  height: 1700px;
+  overflow: hidden;
+ }
+ .card-space{
+  flex-direction: column;
+  align-items: center;
+  width: 200%;
+  overflow-x: hidden;
+  gap: 2%;
+  height: 90%;
+  border-radius: 20px;
+
+ }
+ .card-shopButton{
+  margin-top: 400px;
+  width: 55%;
+
+}
+}
+@media (max-width: 296px){
+      .card-body-text{
+        font-size: 9px;
+      }
+      .card-shopButton{
+        width: 120px;
+      }
+      .card-main-text{
+        font-size: 15px;
+      }
+}
+
+
+
+/*Media Queries for steps*/
+
+
+@media (max-width: 601px){
+  .step-title{
+    font-size: 19px;
+  }
+  .steps-subtitle{
+    font-size: 16px;
+  }
+  .step-des{
+    font-size: 12px;
+  }
+}
+@media (max-width: 467px){
+  .steps-space{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.steps-container{
+  height: fit-content;
+}
+.step-title{
+  font-size: 17px;
+  width: 130%;
+  text-align: center;
+}
+.step-des{
+ line-height: 18px;
+ width: 175%;
+}
+.step-num-bg{
+  padding: 25px;
+  padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50%;
+    font-weight: lighter;
+    background-color: white;
+    font-size: 25px;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255,0.4), 0 0 20px 10px rgba(255,255,255,0.3), 0 0 20px 10px rgba(255,255,255,0.15);
+    
+}
+  }
+
+  @media(max-width:325px){
+    .steps-title{
+      font-size: 23px;
+    }
+    .steps-subtitle{
+      font-size: 15px;
+    }
+  }
+
+  /*Media Query for featured cars*/
+
+
+  @media(max-width: 1000px){
+    .carCard{
+      width: 30%;
+      
+    }
+    .featuredCars-Cards-container{
+      gap:10%;
+    }
+    .featuredCars-container{
+      height: 1700px;
+    }
+    .featuredCars-Cards-containerAll .carCard{
+      width: 30%;
+    }
+    .featuredCars-containerAll{
+      height: 3800px;
+    }
+  }
+  @media(max-width: 594px){
+    .carCard{
+      width: 70%;
+      height: 500px;
+    }
+    .featuredCars-Cards-container{
+      gap:0%;
+    }
+    .featuredCars-container{
+      height: 3300px;
+    }
+    .featuredCars-Cards-containerAll .carCard{
+      width: 70%;
+    }
+    .featuredCars-Cards-containerAll{
+      gap: 0%;
+    }
+    .featuredCars-containerAll{
+      height: 12500px;
+    }
+  }
+
+ /*media for  contact*/
+
+
+ @media(max-width:700px){
+  .emailForm{
+    width: 70%;
+  }
+ }
+
+ @media(max-width:475px){
+  .emailForm{
+    width: 90%;
+  }
+ }
+ @media(max-width:375px){
+  .contact-container{
+    height:900px;
+    flex-direction: column;
+  }
+  .input-container{
+    height: 33%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .emailForm button{
+    margin-left: 5%;
+  }
+  .text-input-area{
+    height: 20%;
+  }
+  .message-area{
+    width: 80%;
+    margin-bottom: 10%;
+  }
+ }
+
+ .carBuy-container{
+  margin-top: 2%;
+  width: 90%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ .carBuy-price-container{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap; 
+  width: 600px; 
+  height: fit-content;
+  gap: 20px;
+  justify-content: space-evenly;
+  overflow: hidden;
+  align-items: center;
+ }
+
+ .carBuy-price-container li{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 225px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 5px;
+  border-radius: 20px;
+  height: 75px;
+  text-align: center;
+  align-self: center;
+  overflow:hidden;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  transition: all ease-in-out 125ms;
+ }
+ .carBuy-price-text{
+  margin-top: 12%;
+  color: rgb(10,19,30);
+ }
+
+
+ @media(max-width: 750px){
+  .carBuy-price-container{
+    width: 200px;
+  }
+  .carBuy-price-container li{
+      width: 150px;
+
+  }
+  .carBuyImage{
+    width: 250px;
+  }
+ }
+
+ @media(max-width: 510px){
+  .carBuy-container{
+        flex-direction: column;
+  }
+  .carBuy-price-container{
+    margin-left: -12%;
+  }
+  .carBuyCarName{
+    font-size: 23px;
+  }
+  .carBuyImage{
+    width: 200px;
+  }
+ }
+
+ .carBuyDuration{
+  margin-top: 10%;
+  display:flex;
+  justify-content: center;
+  width: 210px;
+  align-items: center;
+ }
+ .carBuyDurationText{
+  font-size: 18px;
+ }
+ .carBuyDurationMods{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  justify-content: space-between;
+  height: 80px;
+ }
+
+ .carBuyDurationMods h1{
+  margin: 0;
+  margin-left: -325%;
+  background-color: white;
+  border-radius: 50%;
+ }
+ .carBuyDurationNum{
+  background-color: rgb(10,19,30);
+  color: white;
+  border-radius: 50%;
+  padding: 9% 14.5%;
+ }
+
+
+ .carBuyDurationIncrease{
+  padding: 0% 32%;
+  border-color: rgb(10,19,30);
+  border-style: solid ;
+  cursor: pointer;
+ }
+ .carBuyDurationDecrease{
+  padding: 0% 55%;
+  border-color: rgb(10,19,30);
+  border-style: solid ;
+  cursor: pointer;
+ }
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
